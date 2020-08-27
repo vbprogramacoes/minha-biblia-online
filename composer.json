@@ -9,7 +9,8 @@
         "fideloper/proxy": "~4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0",
-        "prismic/php-sdk": "5.0.1"
+        "prismic/php-sdk": "5.0.1",
+        "spatie/schema-org": "^2.14"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -20,6 +21,9 @@
         "symfony/thanks": "^1.0"
     },
     "autoload": {
+        "files": [
+            "app/Helpers/Helper.php"
+        ],
         "classmap": [
             "database/seeds",
             "database/factories"
